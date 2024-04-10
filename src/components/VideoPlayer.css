@@ -1,0 +1,18 @@
+.video-player-container {
+    width: 100%;
+    max-width: 800px; /* Adjust maximum width as per your requirement */
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  @media (max-width: 768px) { /* For tablets and smaller devices */
+    .video-player-container {
+      max-width: 600px; /* Adjust maximum width for tablets */
+    }
+  }
+  
+  @media (max-width: 576px) { /* For phones and smaller devices */
+    .video-player-container {
+      max-width: 400px; /* Adjust maximum width for phones */
+    }
+  }
